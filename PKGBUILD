@@ -1,6 +1,6 @@
 pkgname=python-packaging
-pkgver=25.0
-pkgrel=2
+pkgver=26.0
+pkgrel=3
 pkgdesc="Core utilities for Python packages"
 arch=('x86_64')
 url="https://pypi.org/project/packaging/"
@@ -12,7 +12,7 @@ makedepends=(
     'python-installer'
 )
 source=(https://github.com/pypa/packaging/archive/${pkgver}/${pkgname#*-}-${pkgver}.tar.gz)
-sha256sums=(15b6ba95eb12d8f99dcf215ea37cbea16812ef28358e8ef3d9344acb827acac1)
+sha256sums=(7b1995333d1d9a2d857ba85c493df323055e64248a45c2af32ebe9ae8dce663b)
 
 build() {
     cd ${pkgname#*-}-${pkgver}
